@@ -8,15 +8,6 @@
 
 #define INIT_SPEED  100
 
-typedef enum {
-    IDLE,
-    FORWARD,
-    RIGHT,
-    BACKWARD,
-    LEFT,
-}CONTROLLER_SIGNAL;
-
-void move(int cotrol_signal);
 void idle();
 void forward();
 void backward();

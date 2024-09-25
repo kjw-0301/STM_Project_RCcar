@@ -1,31 +1,6 @@
 #include "motor.h"
 
 
-
-void move(int control_signal)
-{
-  switch(control_signal)
-  {
-       case FORWARD:
-         forward();
-         break;
-       case BACKWARD:
-         backward();
-         break;
-       case RIGHT:
-         right();
-         break;
-       case LEFT:
-         left();
-         break;
-       case IDLE:
-         idle();
-         break;
-       default:
-         idle();
-         break;
-  }
-}
 void idle()
 {
   HAL_GPIO_WritePin(GPIOB, GPIO_PIN_1, GPIO_PIN_SET);
