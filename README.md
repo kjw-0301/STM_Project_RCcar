@@ -3,22 +3,13 @@
 - [🚗 Visit RC_Car Project Docs](https://www.canva.com/design/DAGPbfohr20/pTF_LQDb0HObs8oqjEBFqg/view?utm_content=DAGPbfohr20&utm_campaign=designshare&utm_medium=link&utm_source=editor)   
 ## RC_Car_Phone_BT(블루투스 4.0)
 - 휴대폰의 "Dabble" 앱의 조이스틱 모듈을 통해서 RC카의 제어를 할 수 있습니다.
-
-| title1 | title2 | title3 |
-| --- | --- | --- |
-| 1 | 2 | 3 |
-| 4 | 5 | 6 |
-| 7 | 8 | 9 |
-
   
-<br>    
 | 파일명 | 설명|
 | --- | --- |
 | **main.c** |**DMA**방식을 사용해 **UART**통신을 하여 앱의 조이스틱에서 입력한 값으로 모터의 동작을 제어합니다.| 
 | **motor.h** |**motor.c**에서 사용할 함수와 변수, 전처리기를 정의합니다.| 
 | **motor.c** |**motor.h**에서 정의된 함수 및 변수들을 사용해 실제 동작할 함수의 내용을 작성한 파일입니다.| 
 
-<br>
 
 ## RC_Car_Project_ADC_JoyStick(HC-06(Slave)) & RC_Car_project_joystick_BT(HC-05(Master))
 ####  **RC_Car_Project_ADC_JoyStick**
