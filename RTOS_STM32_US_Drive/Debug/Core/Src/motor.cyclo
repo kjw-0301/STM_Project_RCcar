@@ -1,0 +1,7 @@
+../Core/Src/motor.c:4:6:idle	1
+../Core/Src/motor.c:14:6:forward	1
+../Core/Src/motor.c:24:6:backward	1
+../Core/Src/motor.c:34:6:right	1
+../Core/Src/motor.c:44:6:left	1
+../Core/Src/motor.c:55:6:Speed	1
+../Core/Src/motor.c:60:6:PWM_Init	1
